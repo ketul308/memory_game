@@ -67,6 +67,7 @@ const HomeScreen: React.FC<Props> = (props) => {
         setTotalAttempts(0);
         setSuccessCount(0);
         setIsPressActive(false);
+        setrestartGame(false);
     }
 
     return (
